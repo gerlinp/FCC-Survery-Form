@@ -1,1 +1,32 @@
- 
+:root {
+--primary: #ffc636;
+--secondary: #0a0b58;
+}
+
+body,p {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    background: var(--secondary);
+    overflow-x:hidden;
+}
+
+.btn {
+    background: none;
+    border: 2px solid var(--primary);
+    color:var(--primary);
+    padding: 6px 12px;
+    border-radius: 20px;
+    text-transform: uppercase;
+}
+
+@media screen and (min-width: 620px){
+
+}
+
+@media screen and (min-width: 960px){
+
+} 
